@@ -32,9 +32,13 @@
             ],
             "styles": [
               "src/styles.scss",
+              "./node_modules/@tabler/core/dist/css/tabler.min.css",
               "./node_modules/mapbox-gl/dist/mapbox-gl.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+              "./node_modules/@tabler/core/dist/js/tabler.min.js"
+            ]
           },
           "configurations": {
             "production": {
